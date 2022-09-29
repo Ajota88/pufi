@@ -4,8 +4,14 @@
   font-size: 25px;
 }
 
+.product_container-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  font-size: 25px;
+}
+
 .product-img_container{
-  border: 1px solid black;
   width: 50%;
   position: relative;
   img{

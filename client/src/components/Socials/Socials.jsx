@@ -6,7 +6,7 @@ const Socials = () => {
   return (
     <div className='socials_container'>
       <p>INSTAGRAM</p>
-      <h3>#Espufi</h3>
+      <h2>#Espufi</h2>
       <div className='socials-images_container'>
         {socialImages?.map((imageSocial,index)=>(
           <img src={imageSocial.image} key={index} />

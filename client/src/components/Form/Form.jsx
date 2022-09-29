@@ -5,8 +5,8 @@ const Form = () => {
   return (
     <div className='newsletter_container'>
       <p>NEWSLETTER</p>
-      <h3>SUSCRIBETE</h3>
-      <p>y enterate de todas las novedades</p>
+      <h2>SUSCRIBETE</h2>
+      <p id='p-novedades'>y enterate de todas las novedades</p>
     </div>
   )
 }

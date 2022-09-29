@@ -2,10 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid black;
   font-size: 30px;
   position: absolute;
   width: 100%;
+  color: #f1f1f1;
+  text-shadow: 0 0 3px #000;
+  a {
+    color: inherit;
+    text-decoration: inherit; 
+  }
   h2{
     font-size: 1.5em;
   }
@@ -30,12 +35,12 @@
     justify-content: space-between;
     width:35rem;
     #pufi-rain{
-      border-left: 1px solid black;
-      border-right: 1px solid black;
+      border-left: 1px solid #f1f1f1;
+      border-right: 1px solid #f1f1f1;
     }
     
     #pufi-cart{
-      border-right: 1px solid black;
+      border-right: 1px solid #f1f1f1;
     }
 
     li{
@@ -51,7 +56,6 @@
     align-items: center;
     justify-content: space-evenly; 
     padding: 5px;
-    border: 1px solid black;
 
     h4{
       width: 50%;
@@ -59,7 +63,7 @@
     }
 
     #mi-cuenta{
-      border-right: 1px solid black;
+      border-right: 1px solid #f1f1f1;
     }
   }
 }

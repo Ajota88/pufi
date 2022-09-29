@@ -2,9 +2,9 @@ import React from 'react'
 import ShoppingButton from '../ShoppingButton/ShoppingButton'
 import "./Style.scss"
 
-const Product = ({productImage,productName,logoImage}) => {
+const Product = ({productImage,productName,logoImage,index}) => {
   return (
-    <div className='product_container'>
+    <div className={index % 2 ===0 ?'product_container':'product_container-reverse'}>
       <div className='product-img_container'>
         <img src={productImage}/>
         <ShoppingButton />

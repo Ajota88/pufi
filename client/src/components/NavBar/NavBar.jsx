@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className='header'>
       <div className='header__container_logo'>
-        <h2>Pufi</h2>
+        <a href="#"><h2>Pufi</h2></a>
       </div>
       <div >
         <ul className='header__container_items'>
