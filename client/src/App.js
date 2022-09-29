@@ -1,5 +1,6 @@
 import Carousel from "./components/Carousel/Carousel";
 import NavBar from "./components/NavBar/NavBar";
+import ProductsList from "./components/ProductsList/ProductsList";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
      <NavBar />
      <Carousel />
+     <ProductsList />
     </div>
   );
 }
