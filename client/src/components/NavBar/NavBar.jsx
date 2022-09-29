@@ -32,8 +32,8 @@ const NavBar = () => {
         </ul>
       </div>
       <div className='header__container_user'>
-        <h4 id='mi-cuenta'>MI CUENTA</h4>
-        <h4>MI COMPRA</h4>
+        <a href=""><h4 id='mi-cuenta'>MI CUENTA</h4></a>
+        <a href=""><h4>MI COMPRA</h4></a>
       </div>
     </div>
   )

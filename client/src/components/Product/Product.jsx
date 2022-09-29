@@ -9,7 +9,7 @@ const Product = ({productImage,productName,logoImage,index}) => {
         <img src={productImage}/>
         <ShoppingButton />
       </div>
-      <div className='product-description_container'>
+      <div className='product-description_container' id={index}>
         <div className='description-logo_container'>
           <img src={logoImage} />
           <h3>{productName}</h3>
