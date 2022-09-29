@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 10px;
   p{
     font-size: 10px;
     font-weight: bold;
@@ -26,12 +27,47 @@
 
 .info-footer{
   display: flex;
+  width: 12rem;
   flex-direction: column;
   font-size: 10px;
   font-weight: bold;
+  border-right: 1px solid #c1c1c1;
   a {
     color: inherit;
     text-decoration: inherit; 
     margin-bottom: 10px;
   }
+}
+
+.socials-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-start;
+  margin-top: -15px;
+  a {
+    color: inherit;
+    text-decoration: inherit; 
+    margin-bottom: 10px;
+  }
+  p,a{
+    margin-right: 10px;
+  }
+}
+
+.shopping-info{
+  align-self: flex-start;
+  margin-top: -15px;
+  width: 11rem;
+  text-align: center;
+  padding-right: 30px;
+  border-right: 1px solid #c1c1c1;
+}
+
+.garantia-footer{
+  display: flex;
+  p{
+    font-weight: 400;
+  }
+ 
 }

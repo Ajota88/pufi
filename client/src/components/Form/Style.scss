@@ -1,21 +1,19 @@
-.newsletter_container{
-  margin-top: 40px;
-  margin-bottom: 60px;
-  font-size: 25px;
+.form_container{
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  p{
-    font-size: 0.8rem;
-    margin-bottom: 0;
-    color: #c1c1c1
+  justify-content: center;
+  width: 100%;
+  input{
+    width: 40%;
+    padding: 10px;
+    height: 20px;
   }
-  h2{
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  #p-novedades{
-    color:black
+  button{
+    position: absolute;
+    left:68%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
   }
 }
