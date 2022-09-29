@@ -1,9 +1,12 @@
+import Carousel from "./components/Carousel/Carousel";
+import NavBar from "./components/NavBar/NavBar";
 
 
 function App() {
   return (
     <div className="App">
-     Test
+     <NavBar />
+     <Carousel />
     </div>
   );
 }

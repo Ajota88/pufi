@@ -1,0 +1,17 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .header__container_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .header__container_user{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+  }
+}
