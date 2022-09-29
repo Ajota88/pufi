@@ -5,9 +5,11 @@ import cart from "../../assets/Carousel_Images/carousel_cart.jpg";
 import puff from "../../assets/Carousel_Images/carousel_puff.webp";
 import rain from "../../assets/Carousel_Images/carousel_rain.webp";
 import "./Style.scss";
+import ShoppingButton from "../ShoppingButton/ShoppingButton";
 
 export default function Carrusel() {
   return (
+    <div>
     <Carousel
       showArrows={false}
       infiniteLoop
@@ -37,5 +39,7 @@ export default function Carrusel() {
         </div>
       </div>
     </Carousel>
+    <ShoppingButton />
+    </div>
   );
 }

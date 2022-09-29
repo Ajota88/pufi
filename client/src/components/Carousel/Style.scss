@@ -1,15 +1,15 @@
 .carousel {
   display: flex;
   justify-content: center;
+  position: absolute;
 
   .slide {
     position: relative;
     /* background-color:#e16428; */
-    height: 70vh;
+    height: 100vh;
 
     img {
       height: 100%;
-      max-width: 60rem;
     }
   }
 }

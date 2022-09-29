@@ -1,0 +1,15 @@
+.footer_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.products-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.info-footer{
+  display: flex;
+  flex-direction: column;
+}

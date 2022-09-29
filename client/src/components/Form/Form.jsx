@@ -1,8 +1,13 @@
 import React from 'react'
+import "./Style.scss"
 
 const Form = () => {
   return (
-    <div>Form</div>
+    <div className='newsletter_container'>
+      <p>NEWSLETTER</p>
+      <h3>SUSCRIBETE</h3>
+      <p>y enterate de todas las novedades</p>
+    </div>
   )
 }
 

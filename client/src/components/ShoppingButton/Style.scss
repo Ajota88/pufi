@@ -1,0 +1,25 @@
+.shop-button_container{
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  border:2px solid #fff;
+  width:5rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  button{
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    text-align: center;
+    color:#fff
+  }
+}

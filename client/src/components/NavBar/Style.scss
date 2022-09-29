@@ -1,17 +1,65 @@
 .header{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  border: 1px solid black;
+  font-size: 30px;
+  position: absolute;
+  width: 100%;
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 0.7em;
+  }
+  h4{
+    font-size: 0.35em;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .header__container_logo{
+    padding: 20px;
+  }
 
   .header__container_items{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    width:35rem;
+    #pufi-rain{
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+    }
+    
+    #pufi-cart{
+      border-right: 1px solid black;
+    }
+
+    li{
+     
+      width: 25%;
+      text-align: center;
+    }
   }
   
   .header__container_user{
+    width: 5em;
     display: flex;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
+    padding: 5px;
+    border: 1px solid black;
+
+    h4{
+      width: 50%;
+      text-align: center;
+    }
+
+    #mi-cuenta{
+      border-right: 1px solid black;
+    }
   }
 }

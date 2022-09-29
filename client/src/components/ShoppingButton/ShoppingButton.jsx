@@ -1,8 +1,11 @@
 import React from 'react'
+import "./Style.scss"
 
 const ShoppingButton = () => {
   return (
-    <div>ShoppingButton</div>
+    <div className='shop-button_container'>
+      <button>SHOP</button>
+    </div>
   )
 }
 

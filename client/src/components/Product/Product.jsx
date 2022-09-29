@@ -1,4 +1,5 @@
 import React from 'react'
+import ShoppingButton from '../ShoppingButton/ShoppingButton'
 import "./Style.scss"
 
 const Product = ({productImage,productName,logoImage}) => {
@@ -6,14 +7,16 @@ const Product = ({productImage,productName,logoImage}) => {
     <div className='product_container'>
       <div className='product-img_container'>
         <img src={productImage}/>
+        <ShoppingButton />
       </div>
       <div className='product-description_container'>
         <div className='description-logo_container'>
           <img src={logoImage} />
           <h3>{productName}</h3>
         </div>
+        <div className='horizontal-line'></div>
         <p>Descripción del producto. Este es un texto simulado</p>
-        <h4>&gt; VER MÁS</h4>
+        <button>&gt; VER MÁS</button>
       </div>
     </div>
   )

@@ -12,10 +12,10 @@ const NavBar = () => {
           <li>
             <h3>Pufi Puff</h3>
           </li>
-          <li>
-            <h3>Pufi Rain</h3>
+          <li id='pufi-rain'>
+            <h3 >Pufi Rain</h3>
           </li>
-          <li>
+          <li id='pufi-cart'>
             <h3>Pufi Cart</h3>
           </li>
           <li>
@@ -24,7 +24,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className='header__container_user'>
-        <h4>MI CUENTA</h4>
+        <h4 id='mi-cuenta'>MI CUENTA</h4>
         <h4>MI COMPRA</h4>
       </div>
     </div>
