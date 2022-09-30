@@ -9,7 +9,7 @@ const Socials = () => {
       <h2>#Espufi</h2>
       <div className='socials-images_container'>
         {socialImages?.map((imageSocial,index)=>(
-          <img src={imageSocial.image} key={index} />
+          <img src={imageSocial.image} key={index} alt="imagen de nuestro instagram" />
         ))}
       </div>
     </div>

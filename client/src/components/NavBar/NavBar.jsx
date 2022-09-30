@@ -14,19 +14,19 @@ const NavBar = () => {
       <div >
         <ul className='header__container_items'>
           <li>
-          <img src={puffNav} />
+          <img src={puffNav} alt="logo del producto" />
             <h3>Pufi Puff</h3>
           </li>
           <li id='pufi-rain'>
-          <img src={rainNav} />
+          <img src={rainNav} alt="logo del producto"/>
             <h3 >Pufi Rain</h3>
           </li>
           <li id='pufi-cart'>
-          <img src={cartNav} />
+          <img src={cartNav} alt="logo del producto" />
             <h3>Pufi Cart</h3>
           </li>
           <li>
-          <img src={napNav} />
+          <img src={napNav} alt="logo del producto" />
             <h3>Pufi Nap</h3>
           </li>
         </ul>

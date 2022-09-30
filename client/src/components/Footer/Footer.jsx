@@ -30,8 +30,8 @@ export const Footer = () => {
         <div className="shopping-info">
           <p>COMPRA 100% SEGURA</p>
           <div className="garantia-footer">
-            <img src={imageFooter1} />
-            <img src={imageFooter2} />
+            <img src={imageFooter1} alt="compra segura" />
+            <img src={imageFooter2} alt="compra segura" />
             <p>COMPRA CON LA GARANTIA DE PUFI</p>
           </div>
         </div>
@@ -56,7 +56,7 @@ export const Footer = () => {
         <p>PUFI Copyright 2017</p>
         <h5>Todos los derechos reservados</h5>
         </div>
-        <img src={brandLive} />
+        <img src={brandLive} alt="brandlive" />
       </div>
     </div>
   );
