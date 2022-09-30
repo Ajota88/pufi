@@ -18,6 +18,7 @@ const Product = ({productImage,productName,logoImage,index}) => {
         <p>Descripción del producto. Este es un texto simulado</p>
         <button>&gt; VER MÁS</button>
       </div>
+      <div className='triangle'></div>
     </div>
   )
 }
